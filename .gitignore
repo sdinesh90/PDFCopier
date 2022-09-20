@@ -1,0 +1,11 @@
+*bin/
+.vs/
+obj/
+*.suo
+*.tmp
+*.psess
+*.vsp
+*.prf
+*.user
+*.bak
+*.orig
