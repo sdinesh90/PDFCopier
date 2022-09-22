@@ -34,13 +34,13 @@ foreach (var line in lines) {
             string pdfPath = Path.Combine (pdfDir, pdfNames[i]);
             string destPath = Path.Combine (destDir, pdfNames[i]);
             Console.WriteLine ($"{pdfPath} -> {destPath}");
-            // File.Copy (pdfPath, destPath);
+            File.Copy (pdfPath, destPath);
          }
       }
    }
 }
 
-https://stackoverflow.com/questions/17207269/how-to-properly-split-a-csv-using-c-sharp-split-function
+// https://stackoverflow.com/questions/17207269/how-to-properly-split-a-csv-using-c-sharp-split-function
 List<string> SplitCsvLine (string s) {
    int i;
    int a = 0;
